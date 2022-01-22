@@ -27,7 +27,7 @@ public class MathApplicationTester {
     public void testAdd(){
 
         //add the behavior to add numbers
-        when(calcService.add(5.0,10.0)).thenReturn(6.0);
+        when(calcService.add(5.0,10.0)).thenReturn(11.0);
 
         //test the add functionality
         Assert.assertEquals(mathApplication.add(5.0, 6.0),11.0,0);
